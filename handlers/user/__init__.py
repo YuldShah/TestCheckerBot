@@ -1,1 +1,1 @@
-from .check_answers import register_user_handlers
+from .register_routers import register_user_handlers

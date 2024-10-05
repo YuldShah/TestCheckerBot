@@ -1,9 +1,13 @@
-from data.config import cr_test, dl_test, shw_ans, check_ans
+from data.config import cr_test, dl_test, shw_ans, check_ans, results, help_txt
 from aiogram import types
 
 btn = [
     [
-        types.KeyboardButton(text=check_ans)
+        types.KeyboardButton(text=check_ans),
+        types.KeyboardButton(text=results)
+    ],
+    [
+        types.KeyboardButton(text=help_txt)
     ]
 ]
 

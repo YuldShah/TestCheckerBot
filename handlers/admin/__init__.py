@@ -1,1 +1,1 @@
-from .create_test import register_admin_handlers
+from .register_routers import register_admin_handlers
